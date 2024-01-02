@@ -58,7 +58,7 @@ video {
 
 .card {
     /* tmp */
-    max-width: 380px;
+    max-width: 23.125em;
     background-color: var(--white);
     border: 1px solid var(--black);
     border-radius: 15px;
@@ -108,7 +108,7 @@ video {
     gap: 1em;
 }
 
-.avatar {width: 40px;}
+.avatar {width: 2.5em;}
 .name {font-weight: 800;}
 
 .attribution {
