@@ -81,7 +81,7 @@ video {
     font-weight: 700;
 }
 
-.date-published {margin-bottom: 1em;}
+.date-published {margin-bottom: 1.5em;}
 
 .title-link {
     margin-bottom: 0.5em;
@@ -96,7 +96,7 @@ video {
 .title-link:focus {color: var(--yellow);}
 
 .desc {
-    margin-bottom: 1em;
+    margin-bottom: 1.5em;
     line-height: 24px;
     color: var(--grey);
 }
