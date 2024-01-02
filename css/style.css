@@ -1,0 +1,122 @@
+@font-face {
+    font-family: 'Figtree';
+    src: url('../assets/fonts/Figtree-VariableFont_wght.ttf') format('truetype');
+}
+
+:root {
+    --yellow: hsl(47, 88%, 63%);
+    --white: hsl(0, 0%, 100%);
+    --grey: hsl(0, 0%, 50%);
+    --black: hsl(0, 0%, 7%);
+}
+
+*, 
+*::before, 
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+
+    font: inherit;
+}
+
+body {
+    /* center card */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    min-height: 100vh;
+
+    min-height: 100svh;
+
+    background-color: var(--yellow);
+
+    font-family: 'Figtree';
+    font-size: 1rem;
+}
+
+a{
+    cursor: pointer;
+    display: inline-block;
+    text-decoration: none;
+    font: inherit;
+}
+
+svg,
+img,
+picture,
+video {
+    display: block;
+    max-width: 100%;
+    object-fit: contain;
+}
+
+.card {
+    /* tmp */
+    max-width: 380px;
+    background-color: var(--white);
+    border: 1px solid var(--black);
+    border-radius: 15px;
+    box-shadow: 6px 6px 0 var(--black);
+    overflow: hidden;
+    padding: 1.5em;
+}
+
+.illustration {
+    border-radius: 10px;
+    margin-bottom: 1em;
+}
+
+.category {
+    display: inline-block;
+    background-color: var(--yellow);
+    border-radius: 5px;
+    padding: 0.3em 0.8em;
+    margin-bottom: 0.6em;
+    font-weight: 700;
+}
+
+.date-published {margin-bottom: 1em;}
+
+.title-link {
+    margin-bottom: 0.5em;
+    font-size: 1.44rem;
+    font-weight: 800;
+    color: var(--black);
+
+    transition: 0.3s ease-in-out;
+}
+
+.title-link:hover,
+.title-link:focus {color: var(--yellow);}
+
+.desc {
+    margin-bottom: 1em;
+    line-height: 24px;
+    color: var(--grey);
+}
+
+.profile {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1em;
+}
+
+.avatar {width: 40px;}
+.name {font-weight: 800;}
+
+.attribution {
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    margin-bottom: 1em;
+    
+    font-size: 11px; text-align: center;
+    color: hsl(228, 45%, 44%);
+}
